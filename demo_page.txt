@@ -1,6 +1,0 @@
-SELECT * FROM LED_TV WHERE tv_model < 40000;
-
-
-DELETE FROM LED_TV WHERE model = "curved led";
-
-UPDATE LED_TV SET rate = rate + 5000 WHERE inch > 43;
